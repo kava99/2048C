@@ -28,7 +28,7 @@ int main(void) {
 
 	graphics_window_create("2048C", 800, 600);
 
-	map_reset(16, 16);
+	map_reset(8, 8);
 	map_add_random_values(16);
 
 
